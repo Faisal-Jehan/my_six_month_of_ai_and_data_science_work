@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Flask App with Plots</title>
+</head>
+<body>
+  <h1>Flask App with Pre-generated Plots</h1>
+  <img src="{{ url_for('static', filename='plot1.png') }}" alt="Plot 1">
+  <img src="{{ url_for('static', filename='plot2.png') }}" alt="Plot 2">
+</body>
+</html>
